@@ -17,7 +17,7 @@ public class SymbolDetector {
                 bestWord = word;
             }
         }
-        return bestWord == null ? "No words found in the input string" : bestWord;
+        return bestWord;
     }
 
     private boolean isStringEmpty(String input) {
